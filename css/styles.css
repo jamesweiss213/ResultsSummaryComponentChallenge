@@ -1,0 +1,218 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/********************************HTML Tags************************/
+body{
+    background-color:hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+/********************************Classes**************************/
+.main-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border-radius:1rem;
+    box-shadow:1rem 1rem 1rem rgba(58, 99, 194, 0.05);
+    display:flex;
+}
+
+/*******Left Side*********/
+
+.left-container{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    border-radius:1rem;
+    width:17.5rem;
+}
+
+.left-first-header{
+    color:hsla(241, 100%, 89%, .95);
+    font-weight:bold;
+    font-size:1.25rem;
+    padding:1.5rem 1.25rem 1.25rem;
+}
+
+.left-score-container{
+    display:inline-block;
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    padding:2rem;
+    border-radius:50%;
+    width:9rem;
+}
+
+.left-score{
+    font-size:3rem;
+    color:white;
+    font-weight:800;
+}
+
+.left-score-denominator{
+    color:hsla(241, 100%, 89%, .5);
+}
+
+.left-second-header{
+    color:hsl(221, 100%, 96%);
+    font-size:20px;
+    font-weight:bold;
+    padding:1.25rem .625rem .625rem;
+}
+
+.left-description{
+    color:hsla(241, 100%, 89%, .95);
+    padding: 0 1.875rem 2.5rem 1.875rem;
+}
+
+/*********Right Side***********/
+
+.right-container{
+    width:17.5rem;
+}
+.right-header{
+    font-size:1.25rem;
+    padding:1.25rem;
+    font-weight:bold;
+    color:hsl(224, 30%, 27%);
+}
+.right-scores-container{
+    padding:0 0 0 1.25rem;
+}
+
+/*REACTION SCORE*/
+
+.first-right-score-container{
+    background-color:hsla(0, 100%, 67%, .1);
+    margin:0 1.25rem .5rem 0;
+    border-radius:.5rem;
+}
+.first-right-score-title{
+    color:hsl(0, 100%, 67%);
+    display:inline-block;
+    margin:.625rem;
+}
+.first-right-score-title::before{
+    content:url(../assets/images/icon-reaction.svg);
+    position:relative;
+    top:.25rem;
+    padding:.1rem;
+}
+
+.first-right-score-total{
+    display:inline-block;
+    margin-left:3rem;
+}
+
+.first-right-score{
+    font-weight:bold;
+
+}
+.second-right-score-container{
+    background-color:hsla(39, 100%, 56%, .1);
+    margin:0 1.25rem .5rem 0;
+    border-radius:.5rem;
+}
+.second-right-score-title{
+    color:hsl(39, 100%, 56%);
+    display:inline-block;
+    margin:.625rem;
+    height:1.5625rem;
+    width:5.625rem;
+}
+.second-right-score-title::before{
+    content:url(../assets/images/icon-memory.svg);
+    position:relative;
+    top:.25rem;
+    padding:.1rem;
+}
+
+.second-right-score-total{
+    display:inline-block;
+    margin-left:3rem;
+}
+
+.second-right-score{
+    font-weight:bold;
+    height:5.625rem;
+    width:1.5625rem;
+}
+.third-right-score-container{
+    background-color:hsl(166, 100%, 37%, .1);
+    margin:0 1.25rem .5rem 0;
+    border-radius:.5rem;
+}
+.third-right-score-title{
+    color:hsl(166, 100%, 37%);
+    display:inline-block;
+    margin:.625rem;
+    height:1.5625rem;
+    width:5.625rem;
+}
+.third-right-score-title::before{
+    content:url(../assets/images/icon-verbal.svg);
+    position:relative;
+    top:.25rem;
+    padding:.1rem;
+}
+
+.third-right-score-total{
+    display:inline-block;
+    margin-left:3rem;
+}
+
+.third-right-score{
+    font-weight:bold;
+
+}
+.fourth-right-score-container{
+    background-color:hsla(234, 85%, 45%, .1);
+    margin:0 1.25rem .5rem 0;
+    border-radius:.5rem;
+}
+.fourth-right-score-title{
+    color:hsl(234, 85%, 45%);
+    display:inline-block;
+    margin:.625rem;
+    height:1.5625rem;
+    width:5.625rem;
+}
+.fourth-right-score-title::before{
+    content:url(../assets/images/icon-visual.svg);
+    position:relative;
+    top:.25rem;
+    padding:.1rem;
+}
+
+.fourth-right-score-total{
+    display:inline-block;
+    margin-left:3rem;
+}
+
+.fourth-right-score{
+    font-weight:bold;
+}
+
+/*MEMORY SCORE*/
+
+.btn{
+    background-color:hsl(224, 30%, 23%);
+    border-radius:1.75rem;
+    color:hsl(221, 100%, 96%);
+    padding: .625rem 5.625rem .625rem 5.625rem;
+    display: inline-block;
+}
+.btn:hover{
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    transition:2s;
+}
+
+.button-holder{
+    margin:2rem 0 2rem 1.25rem;
+    width:100%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
